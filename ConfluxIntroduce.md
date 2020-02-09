@@ -1,7 +1,7 @@
 # 大家可以把微信群设置为免打扰，以防影响到你正常生活
-![图片](https://uploader.shimo.im/f/6dAii9GB7EEfEQMQ.jpg!thumbnail)
 
  请大家不要发和conflux无关的链接， 机器人会立刻踢出出群。
+请大家认真看看这篇文章：[https://mp.weixin.qq.com/s/AykKCA_61sGbHHpVKkPeow](https://mp.weixin.qq.com/s/AykKCA_61sGbHHpVKkPeow)  
 
 # 简介
 谢谢大家加入Conflux 中文社区。希望大家能学习到区块链， 如果大家对这个项目认可，可以参与到维护社区来。Conflux经过近一年的测试，数万个节点，2020年3月将正式运行，现在大家可以参加赏金计划赢取FC币。
