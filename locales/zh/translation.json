@@ -1,7 +1,7 @@
 {
   "Header": {
     "test_note": "請注意: 這是測試環境！",
-    "pos_pool": "Conflux Fans Pool",
+    "pos_pool": "ABC Pool",
     "connect_portal": "連結錢包",
     "error": "錯誤:",
     "unspport_network_switch_testnet": "不支援的網路，請使用測試錢包: Conflux Testnet",
@@ -32,7 +32,7 @@
   },
   "Pool": {
     "stake&unstake": "質押 和 解除質押",
-    "how_much_stake": "您想要提取多少CFX？",
+    "how_much_stake": "您想要質押多少CFX？",
     "enter_cfx_amount": "請輸入CFX數量",
     "max": "最大",
     "wrong_amount": "錯誤數量",
