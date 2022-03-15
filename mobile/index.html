@@ -31,28 +31,31 @@
     <div class="container g-py-5">
       <ul class="list-inline d-flex align-items-center g-mb-0">
         <li class="list-inline-item d-none d-lg-inline-block">
-          <a class="u-link-v5 g-brd-around g-brd-white-opacity-0_2 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 g-rounded-20 text-uppercase g-px-20 g-py-10" href="page-apply-1.html"></a>
+          <a class="u-link-v5 g-brd-around g-brd-white-opacity-0_2 g-color-white-opacity-0_7 g-color-white--hover g-font-size-12 g-rounded-20 text-uppercase g-px-20 g-py-10"
+            href="page-apply-1.html"></a>
         </li>
- 
+
         <!-- Jump To -->
         <li class="list-inline-item g-pos-rel">
-         
-          <ul id="jump-to-dropdown" class="list-unstyled u-shadow-v39 g-brd-around g-brd-4 g-brd-white g-bg-secondary g-pos-abs g-left-0 g-z-index-99 g-mt-13 u-dropdown--css-animation u-dropdown--hidden" aria-labelledby="jump-to-dropdown-invoker" style="animation-duration: 0ms;">
-       
+
+          <ul id="jump-to-dropdown"
+            class="list-unstyled u-shadow-v39 g-brd-around g-brd-4 g-brd-white g-bg-secondary g-pos-abs g-left-0 g-z-index-99 g-mt-13 u-dropdown--css-animation u-dropdown--hidden"
+            aria-labelledby="jump-to-dropdown-invoker" style="animation-duration: 0ms;">
+
             <li class="dropdown-item g-px-0 g-py-2">
-               
+
             </li>
           </ul>
         </li>
         <!-- End Jump To -->
 
         <!-- Links -->
-        
+
         <!-- End Links -->
 
         <!-- Search -->
         <li class="list-inline-item g-ml-15--lg ml-auto">
-          <div class="link-popup" id="walletAddressText" style="color: red;" data-bind="click:Connect" >連結錢包</div>
+          <div class="link-popup" id="walletAddressText" style="color: red;" data-bind="click:Connect">Connect Wallet</div>
         </li>
         <!-- End Search -->
       </ul>
@@ -67,33 +70,47 @@
           <h2 class="h1" id="g_poolname">Pool XXX</h2>
           <ul class="list-unstyled">
             <li class="media g-brd-around g-brd-gray-light-v4 g-brd-left-3 g-brd-blue-left g-rounded-3 g-pa-20 g-mb-7">
-              
+
               <div class="media-body">
-                
-                <p id="g_notification"> Security First, we will never change the contract code, our KYC info have been provided to Conflux fundation team.
-The earlier you stake, the reward will be higher.</p>
+
+                <p id="g_notification"> Security First, we will never change the contract code, our KYC info have been
+                  provided to Conflux foundation team.
+                  The earlier you stake, the reward will be higher.</p>
                 <p>
-                  Dear all of our brothers and sisters, <br/>
+                <h1>Performance Rule</h1>
+                <table class="table table-bordered u-table--v2">
+                  <thead>
+                    <tr>
+                      <th>
+                        CFX
+                      </th>
+                      <th>
+                        Performance Fee
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>>1M</td>
+                      <td>1%</td>
+                    </tr>
+                    <tr>
+                      <td>100k~1M</td>
+                      <td>3%</td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <100k
+                      </td>
+                      <td>4%</td>
+                    </tr>
+                  </tbody>
+                </table>
 
-We are happy to anounce that Consensus Pool(GS Pool) just upgraded the performance fee as following:<br/>
-
-Larger than 1M CFX, performance fee 1%.
-between 100K and 1M CFX, performance fee is 3%.
-less than 100K CFX, performance fee is 4%.<br/>
-
-Moreover, we will realase our NFT and token before April 30,2022, and we will build our twitter and telegram step by step.<br/>
-
-Join us, have fun. <br/>
-
-If you have any problem, please contact us 
-Market Manager :Shunwei  wechat laijj9999
-Technical developer: frank@softwaretailor.com<br/>
-
-PS: The VIP rule is from phx-verse https://github.com/phx-verse/pos-pool, thanks for their contribution. 
 
                 </p>
-                
-                
+
+
               </div>
             </li>
           </ul>
@@ -104,14 +121,14 @@ PS: The VIP rule is from phx-verse https://github.com/phx-verse/pos-pool, thanks
             <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7" id="g_total_locked"> </div>
             <h4 class="h5 g-color-gray-dark-v4">Total Locked(CFX)</h4>
           </div>
-        
+
           <div class="col-lg-3 col-sm-6 g-mb-50">
             <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7" id="g_total_revenue"></div>
-            
+
 
             <h4 class="h5 g-color-gray-dark-v4">Total Revenue</h4>
           </div>
-        
+
           <div class="col-lg-3 col-sm-6 g-mb-50">
             <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7" id="g_apy"></div>
             <h4 class="h5 g-color-gray-dark-v4">APY</h4>
@@ -127,25 +144,30 @@ PS: The VIP rule is from phx-verse https://github.com/phx-verse/pos-pool, thanks
                 <!-- Contact Form -->
                 <form class="  g-bg-white rounded  ">
                   <div class="col-lg-12 col-sm-6 g-mb-50">
-                    <h4 class="h5 g-color-gray-dark-v4">Balance<span style="color: white;" id="g_pool_revenue"></span></h4>
+                    <h4 class="h5 g-color-gray-dark-v4">Balance<span style="color: white;" id="g_pool_revenue"></span>
+                    </h4>
                     <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7">
                       <span id="spanBalance"></span>
 
                     </div>
-                   
+
                   </div>
                   <!-- Name Input -->
                   <div class="row align-items-center mb-4">
                     <div class="col-sm-12">
-                      <h1 class="g-font-weight-500 g-font-size-16">How much CFX do you want to stake?(Multiples of 1,000 CFX)</h1>
+                      <h1 class="g-font-weight-500 g-font-size-16">How much CFX do you want to stake?(Multiples of 1,000
+                        CFX)</h1>
                     </div>
                     <div class="col-sm-8">
-                      <input class="form-control form-control-md rounded-0" type="text" placeholder="Enter the CFX amout, times of 1000"  id="balance">
+                      <input class="form-control form-control-md rounded-0" type="text"
+                        placeholder="Enter the CFX amout, times of 1000" id="balance">
                     </div>
                     <div class="col-sm-4">
-                      <button type="submit" class="btn btn-md u-btn-inset u-btn-outline-yellow g-mr-10 g-mb-15" style="display: none;">Max</button>
+                      <button type="submit" class="btn btn-md u-btn-inset u-btn-outline-yellow g-mr-10 g-mb-15"
+                        style="display: none;">Max</button>
                       <div class="text-right">
-                        <button type="submit" data-bind="click:Try" class="btn btn-xl u-btn-outline-pink u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Stake</button>
+                        <button type="submit" data-bind="click:Try"
+                          class="btn btn-xl u-btn-outline-pink u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Stake</button>
                       </div>
                     </div>
                   </div>
@@ -156,7 +178,7 @@ PS: The VIP rule is from phx-verse https://github.com/phx-verse/pos-pool, thanks
                   <!-- End Name Input -->
 
 
-              
+
                 </form>
                 <!-- End Contact Form -->
               </div>
@@ -169,8 +191,8 @@ PS: The VIP rule is from phx-verse https://github.com/phx-verse/pos-pool, thanks
           <div class="card g-brd-none g-mx-4 g-mb-8" style="display: none;">
             <!-- Links -->
             <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
-          
-           
+
+
             </div>
             <!-- End Links -->
           </div>
@@ -178,35 +200,39 @@ PS: The VIP rule is from phx-verse https://github.com/phx-verse/pos-pool, thanks
           <div class="card g-brd-none g-mx-4 g-mb-8">
             <!-- Links -->
             <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
-            
-          <div class="col-lg-12 col-sm-6 g-mb-50">
-                   
-                       <h4 class="h5 g-color-gray-dark-v4">My Rewards:</h4>
-                    <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7">
-                      <span id="g_rewards"></span>
-                      <button type="submit" data-bind="click:Claim" class="btn btn-xl u-btn-outline-orange u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Claim</button>
-                    </div>
 
-                    <h4 class="h5 g-color-gray-dark-v4">My Staked:</h4>
-                    <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7">
-                      <span id="g_staked"></span>
-                    </div>
+              <div class="col-lg-12 col-sm-6 g-mb-50">
 
-                    <div class="row align-items-center mb-4">
-                      <div class="col-sm-12">
-                        <h1 class="g-font-weight-500 g-font-size-16">How much do you want to unstake?(Multiples of 1,000 CFX)</h1>
-                        <span id="g_locked" style="color: red;"></span>
-                      </div>
-                      <div class="col-sm-8">
-                        <input class="form-control form-control-md rounded-0" type="text" placeholder="Enter the CFX amout, times of 1000" id="unstakeAmount">
-                      </div>
-                      <div class="col-sm-4">
-                        <div class="text-right">
-                          <button type="submit" data-bind="click:Unstake" class="btn btn-xl u-btn-outline-orange u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Unstake</button>
-                        </div>
-                      </div>
+                <h4 class="h5 g-color-gray-dark-v4">My Rewards:</h4>
+                <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7">
+                  <span id="g_rewards"></span>
+                  <button type="submit" data-bind="click:Claim"
+                    class="btn btn-xl u-btn-outline-orange u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Claim</button>
+                </div>
+
+                <h4 class="h5 g-color-gray-dark-v4">My Staked:</h4>
+                <div class="js-counter g-font-size-35 g-font-weight-300 g-mb-7">
+                  <span id="g_staked"></span>
+                </div>
+
+                <div class="row align-items-center mb-4">
+                  <div class="col-sm-12">
+                    <h1 class="g-font-weight-500 g-font-size-16">How much do you want to unstake?(Multiples of 1,000
+                      CFX)</h1>
+                    <span id="g_locked" style="color: red;"></span>
+                  </div>
+                  <div class="col-sm-8">
+                    <input class="form-control form-control-md rounded-0" type="text"
+                      placeholder="Enter the CFX amout, times of 1000" id="unstakeAmount">
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="text-right">
+                      <button type="submit" data-bind="click:Unstake"
+                        class="btn btn-xl u-btn-outline-orange u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Unstake</button>
                     </div>
                   </div>
+                </div>
+              </div>
             </div>
             <!-- End Links -->
           </div>
@@ -217,10 +243,10 @@ PS: The VIP rule is from phx-verse https://github.com/phx-verse/pos-pool, thanks
             <!-- Links -->
             <div class="card-body u-shadow-v38 g-bg-white rounded g-pa-40">
               <h1>Unstake Activity</h1>
-              
+
               <!--Basic Table-->
 
-          
+
               <div class="table-responsive">
                 <table class="table table-bordered u-table--v2">
                   <thead class="text-uppercase g-letter-spacing-1">
@@ -229,24 +255,25 @@ PS: The VIP rule is from phx-verse https://github.com/phx-verse/pos-pool, thanks
                       <th class="g-font-weight-300 g-color-black g-min-width-200">Details</th>
                     </tr>
                   </thead>
-              
+
                   <tbody data-bind="foreach: DataSource">
                     <tr>
                       <td class="align-middle text-nowrap text-center" data-bind="text: cfx">
-                        
+
                       </td>
                       <td class="align-middle" data-bind="text: time"> </td>
                     </tr>
                   </tbody>
                 </table>
-                <button type="submit" data-bind="click:Withdraw" class="btn btn-xl u-btn-outline-orange u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Withdraw</button>
+                <button type="submit" data-bind="click:Withdraw"
+                  class="btn btn-xl u-btn-outline-orange u-btn-hover-v2-2 g-letter-spacing-0_5 text-uppercase g-rounded-50 g-px-30 g-mr-10 g-mb-15">Withdraw</button>
               </div>
             </div>
             <!-- End Links -->
           </div>
- 
 
-          
+
+
         </div>
       </div>
     </div>
